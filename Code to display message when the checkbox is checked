@@ -1,0 +1,10 @@
+Public Class Form1 
+Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles 
+CheckBox1.CheckedChanged 
+MessageBox.Show("you are select VB.NET") 
+End Sub 
+Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles 
+CheckBox2.CheckedChanged 
+MessageBox.Show("you are select JAVA") 
+End Sub 
+End Class
